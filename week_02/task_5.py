@@ -16,12 +16,12 @@ if x1 >= x2:
 else:
     delta_X = x2 - x1
 
-# проверяем 
+# проверяем
 if delta_X == 1 and delta_Y == 1:
     print("YES")
 elif delta_X == 1 and delta_Y == 0:
     print("YES")
-elif delta_X == 0 and delta_Y ==1:
+elif delta_X == 0 and delta_Y == 1:
     print("YES")
 else:
     print("NO")
